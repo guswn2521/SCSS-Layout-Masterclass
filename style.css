@@ -1,3 +1,6 @@
+body{
+    display: flex;
+}
 .box{
     background-color: aquamarine;
     width: 300px;
