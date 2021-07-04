@@ -1,13 +1,18 @@
 .wrapper{
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    flex-direction: row; */
+    /* Main Axis */
+    justify-content:stretch;
+    /* Cross Axis */
     align-items: center;
+    width: 100vw;
+    /* height: 300px; */
     height: 100vh;
 }
 .box{
     background-color: aquamarine;
-    width: 300px;
-    height: 300px;
-    margin-bottom: 2px;
-    display:inline-block;
+    width: 200px;
+    height: 200px;
+    /* margin-bottom: 2px;
+    display:inline-block; */
 }
