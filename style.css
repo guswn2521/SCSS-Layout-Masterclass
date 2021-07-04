@@ -1,8 +1,8 @@
 .wrapper{
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
+    flex-direction: row;
     /* Main Axis */
-    justify-content:stretch;
+    /* justify-content:stretch; */
     /* Cross Axis */
     align-items: center;
     width: 100vw;
@@ -11,8 +11,9 @@
 }
 .box{
     background-color: aquamarine;
-    width: 200px;
+    width: 100px;
     height: 200px;
+    flex-grow: 1;
     /* margin-bottom: 2px;
     display:inline-block; */
 }
