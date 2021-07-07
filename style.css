@@ -2,17 +2,24 @@
     display: flex;
     justify-content:space-around;
     height: 100vh;
-    flex-wrap:wrap;
+    /* flex-wrap:wrap; */
     align-content: center;
 }
 .child{
     background-color: rgb(57, 120, 255);
     color: white;
-    width: 200px;
+    width: 300px;
     height: 200px;
     font-size:50px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid white;
+}
+.child:nth-child(2){
+    background-color: black;
+    flex-grow:2;
+}
+.child:nth-child(3){
+    flex-grow:10
 }
