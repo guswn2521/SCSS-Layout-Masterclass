@@ -10,7 +10,7 @@
     background-color: rgb(57, 120, 255);
     color: white;
     /* width: 300px; */
-    flex-basis: 10%;
+    flex-basis: 300px;
     height: 200px;
     font-size:50px;
     display: flex;
