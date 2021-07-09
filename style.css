@@ -1,20 +1,17 @@
 .pather{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 100px 50px 100px;
+    grid-template-columns: 250px 250px 250px;
+    
+    column-gap:10px;
+    row-gap:10px;
+    /* gap:20px; */
 }
 .child{
     background-color: rgb(57, 120, 255);
     color: white;
-    width: 300px;
-    flex-basis: 30%;
     font-size:50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
-}
-.child:nth-child(2){
-    background-color: black;
-    /* flex-grow:2; */
 }
