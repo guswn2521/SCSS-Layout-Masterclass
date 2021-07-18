@@ -1,0 +1,25 @@
+h2 {
+  color: #df793f;
+}
+
+.box {
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.box:hover {
+  background-color: #7eec7e;
+}
+
+.box h2 {
+  color: blue;
+}
+
+.box h2:hover {
+  color: red;
+}
+
+.box button {
+  color: red;
+}
+/*# sourceMappingURL=styles.css.map */

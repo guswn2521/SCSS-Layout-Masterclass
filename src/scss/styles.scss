@@ -1,7 +1,24 @@
+@import "_variables";
+
 body {
-  background-color: yellow;
+  // background-color: $bg;
 }
-h1 {
-  color: red;
-  font-size: 10px;
+h2 {
+  color: $bg;
+}
+.box {
+  margin-top: 20px;
+  border: 1px solid black;
+  &:hover {
+    background-color: rgb(126, 236, 126);
+  }
+  h2 {
+    color: blue;
+    &:hover {
+      color: red;
+    }
+  }
+  button {
+    color: red;
+  }
 }
